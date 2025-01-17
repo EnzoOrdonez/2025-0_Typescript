@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ejemplo para examen de HTML y CSS">
+  <title>Ejemplo de Examen</title>
+  <!-- Vinculamos el archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Mi Página Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Esta es una página de ejemplo para practicar HTML y CSS. ¡Espero que te sea útil para tu examen!</p>
+    <img src="https://via.placeholder.com/600x300" alt="Imagen de ejemplo">
+  </section>
+
+  <!-- Sección sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Me llamo <strong>Juan</strong> y soy un apasionado del desarrollo web.</p>
+    <ul>
+      <li>Habilidades: HTML, CSS, JavaScript</li>
+      <li>Hobbies: Programar, leer, viajar</li>
+    </ul>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Mis Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="https://example.com/formulario" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+      
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="4" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
